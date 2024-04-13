@@ -1,0 +1,62 @@
+.side-bar {
+  width: 270px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidebar-website-logo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-website-logo {
+    display: block;
+    width: 180px;
+    padding: 36px;
+  }
+}
+
+.route {
+  display: flex;
+  align-items: center;
+  padding: 2px 0px;
+}
+
+a {
+  width: 100%;
+}
+
+.active-route-line {
+  width: 6px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 0px 10px 10px 0px;
+  background: #2d60ff;
+  margin-right: 38px;
+}
+
+.route-line {
+  margin-right: 44px;
+  height: 60px;
+}
+
+.route-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.route-name {
+  color: #505887;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 24px;
+}
+
+.active-route-name {
+  color: #2d60ff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 24px;
+}

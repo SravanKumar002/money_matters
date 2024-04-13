@@ -1,0 +1,198 @@
+.transaction-item {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.transaction-hr {
+  border: 1px solid #e2e2e2;
+}
+
+@media screen and (min-width: 1050px) {
+  .transaction-hr {
+    margin: 10px 0px;
+  }
+}
+
+.transaction-user-profile-container {
+  box-sizing: border-box;
+  width: 54%;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+
+@media screen and (min-width: 1050px) {
+  .transaction-user-profile-container {
+    width: 26%;
+  }
+}
+
+.transaction-icon-container {
+  margin-right: 8px;
+  margin-top: 4px;
+}
+
+.transaction-user-profile {
+  width: 32px;
+  margin-right: 8px;
+}
+
+.transaction-text-style {
+  color: #505887;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+@media screen and (min-width: 1300px) {
+  .transaction-text-style {
+    font-size: 16px;
+  }
+}
+
+.admin-transaction-category {
+  display: none;
+  box-sizing: border-box;
+  padding-right: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 1050px) {
+  .admin-transaction-category {
+    display: block;
+    width: 16%;
+  }
+}
+
+.user-transaction-category {
+  display: none;
+}
+
+@media screen and (min-width: 1050px) {
+  .user-transaction-category {
+    display: flex;
+    width: 20%;
+    padding-right: 6px;
+    box-sizing: border-box;
+  }
+}
+
+.admin-transaction-name {
+  width: 24%;
+  box-sizing: border-box;
+  padding-right: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 1050px) {
+  .admin-transaction-name {
+    padding-left: 12px;
+  }
+}
+
+.transaction-amount {
+  width: 22%;
+  box-sizing: border-box;
+  text-align: end;
+}
+
+@media screen and (min-width: 1050px) {
+  .transaction-amount {
+    width: 14%;
+  }
+}
+
+.credit-color {
+  color: #16dbaa;
+}
+
+.debit-color {
+  color: #fe5c73;
+}
+
+.transaction-icon-name-container {
+  box-sizing: border-box;
+  width: 40%;
+  padding-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 1050px) {
+  .transaction-icon-name-container {
+    width: 32%;
+  }
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.user-transaction-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mobile-devices-date {
+  width: 18%;
+}
+
+@media screen and (min-width: 1050px) {
+  .mobile-devices-date {
+    display: none;
+  }
+}
+
+.desktop-devices-date {
+  display: none;
+}
+
+@media screen and (min-width: 1050px) {
+  .desktop-devices-date {
+    display: flex;
+    box-sizing: border-box;
+    width: 20%;
+  }
+}
+
+.edit-delete-buttons-container {
+  box-sizing: border-box;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2px;
+}
+
+@media screen and (min-width: 1050px) {
+  .edit-delete-buttons-container {
+    width: 14%;
+  }
+}
+
+.edit-delete-button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  margin-top: 0px;
+  padding-left: 12px;
+}
+
+@media screen and (min-width: 1050px) {
+  .edit-delete-button {
+    padding-left: 12px;
+    margin-right: 6px;
+  }
+}

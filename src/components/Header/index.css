@@ -1,0 +1,76 @@
+.mobile-menu-logo-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-logo-header {
+    display: none;
+  }
+}
+
+.header-logo {
+  width: 148px;
+}
+
+.open-menu-button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+}
+
+.desktop-header {
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7fa;
+  border-top: #e2e4e6 solid 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-header {
+    background-color: #ffffff;
+    padding: 24px;
+    border-top: none;
+    border-bottom: #e2e4e6 solid 1px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    height: 85.33px;
+  }
+}
+
+.header-title {
+  color: #343c6a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-title {
+    font-size: 24px;
+  }
+}
+
+.add-transaction-button {
+  display: block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  background: #2d60ff;
+  padding: 10px 12px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+}
